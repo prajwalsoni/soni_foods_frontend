@@ -1,12 +1,12 @@
-// import React from 'react'
-// import RestaurantTable from './RestaurantTable'
+import React from 'react'
+import RestaurantTable from './RestaurantTable'
 
-// const SuperAdminRestaurant = () => {
-//   return (
-//     <div>
-//         <RestaurantTable name={"All Restaurants"}/>
-//     </div>
-//   )
-// }
+const SuperAdminRestaurant = () => {
+  return (
+    <div>
+        <RestaurantTable name={"All Restaurants"}/>
+    </div>
+  )
+}
 
-// export default SuperAdminRestaurant
+export default SuperAdminRestaurant
