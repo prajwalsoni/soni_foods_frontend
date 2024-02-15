@@ -101,7 +101,7 @@ const RegistrationForm = () => {
               fullWidth
               name="role"
               id="role"
-              // autoComplete="role"
+            
               helperText={<ErrorMessage name="role" />}
             >
               <MenuItem value="Customer">Customer</MenuItem>

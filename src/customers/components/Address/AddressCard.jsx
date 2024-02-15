@@ -12,7 +12,7 @@ const AddressCard = ({ handleSelectAddress,item,showButton }) => {
         <h1 className="font-semibold text-lg text-white">Home</h1>
         <p>
           {item.streetAddress}, {item.postalCode}, {item.state}, {item.country}
-          {/* {`${address?.streetAddress} ${address?.city} ${address?.state} ${address?.zipCode}`} */}
+        
         </p>
 
         {showButton && <Button

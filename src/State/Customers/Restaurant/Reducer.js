@@ -1,4 +1,4 @@
-// Reducers.js
+
 import * as actionTypes from './ActionTypes';
 
 const initialState = {
@@ -53,7 +53,7 @@ const restaurantReducer = (state = initialState, action) => {
             restaurants:state.restaurants.filter((item)=>item.id!==action.payload),
             usersRestaurant:state.usersRestaurant.filter((item)=>item.id!==action.payload)
           }
-      // Implement similar logic for DELETE and UPDATE as needed
+
     case actionTypes.UPDATE_RESTAURANT_SUCCESS:
       return {
         ...state,

@@ -233,14 +233,7 @@ const OrdersTable = ({ isDashboard, name }) => {
           </Table>
         </TableContainer>
       </Card>
-      {/* <Card className="mt-2 felx justify-center items-center">
-        <Pagination
-          className="py-5 w-auto"
-          size="large"
-          count={10}
-          onChange={handlePaginationChange}
-        />
-      </Card> */}
+      
 
       <Backdrop
         sx={{ color: "#fff", zIndex: (theme) => theme.zIndex.drawer + 1 }}

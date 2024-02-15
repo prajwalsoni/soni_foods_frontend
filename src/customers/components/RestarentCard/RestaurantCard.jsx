@@ -40,9 +40,7 @@ const RestaurantCard = ({ data, index }) => {
       <div className="p-4 textPart lg:flex w-full justify-between">
         <div className="space-y-1">
           <p className="font-semibold text-lg">{data.name}</p>
-          {/* <div>
-          <span>{data.rating}</span>
-        </div> */}
+       
           <p className="text-gray-500 text-sm">
             {data.description.length > 40
               ? data.description.substring(0,40)+"..."

@@ -1,7 +1,7 @@
-// Actions.js
+
 import * as actionTypes from './ActionTypes';
 
-// Create Order Actions
+
 export const createOrderRequest = () => ({
   type: actionTypes.CREATE_ORDER_REQUEST,
 });

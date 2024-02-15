@@ -53,7 +53,7 @@ export default function AdminSidebar({ handleClose, open }) {
           open={open}
           onClose={handleClose}
           variant={isSmallScreen ? "temporary" : "permanent"}
-          // variant="persistent"
+          
         >
           <div className="w-[50vw] lg:w-[20vw] group h-[100vh] flex flex-col justify-center text-xl space-y-8">
             <Divider verticle />

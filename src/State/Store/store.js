@@ -18,10 +18,10 @@ const rootReducer=combineReducers({
     cart:cartReducer,
     order:orderReducer,
 
-    // admin
+    
     restaurantsOrder:restaurantsOrderReducer,
 
-    // super admin
+
     superAdmin:superAdminReducer
 })
 

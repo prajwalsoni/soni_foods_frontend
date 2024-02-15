@@ -1,4 +1,3 @@
-// Reducers.js
 import * as actionTypes from './ActionType';
 
 const initialState = {

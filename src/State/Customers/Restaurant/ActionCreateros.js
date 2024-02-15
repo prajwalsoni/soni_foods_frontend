@@ -1,5 +1,5 @@
 import * as actionTypes from './ActionTypes';
-// Create Restaurant Actions
+
 export const createRestaurantRequest = () => ({
     type: actionTypes.CREATE_RESTAURANT_REQUEST,
   });
@@ -14,7 +14,7 @@ export const createRestaurantRequest = () => ({
     payload: error,
   });
 
-  // Get All Restaurants Actions (similar structure for other actions)
+
 export const getAllRestaurantsRequest = () => ({
     type: actionTypes.GET_ALL_RESTAURANTS_REQUEST,
   });
@@ -30,7 +30,7 @@ export const getAllRestaurantsRequest = () => ({
   });
   
 
-  // Delete Restaurant Actions
+  
 export const deleteRestaurantRequest = () => ({
     type: actionTypes.DELETE_RESTAURANT_REQUEST,
   });
@@ -46,7 +46,7 @@ export const deleteRestaurantRequest = () => ({
   });
 
 
-  // Update Restaurant Actions
+  
 export const updateRestaurantRequest = () => ({
     type: actionTypes.UPDATE_RESTAURANT_REQUEST,
   });
