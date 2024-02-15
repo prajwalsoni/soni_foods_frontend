@@ -1,10 +1,10 @@
-// import React from 'react'
-// import RestaurantRequestTable from './RestaurantRequestTable'
+import React from 'react'
+import RestaurantRequestTable from './RestaurantRequestTable'
 
-// const RestaurantRequest = () => {
-//   return (
-//     <div><RestaurantRequestTable name={"All Request"}/></div>
-//   )
-// }
+const RestaurantRequest = () => {
+  return (
+    <div><RestaurantRequestTable name={"All Request"}/></div>
+  )
+}
 
-// export default RestaurantRequest
+export default RestaurantRequest
