@@ -48,7 +48,7 @@ dispatch(getAllRestaurantsAction(localStorage.getItem("jwt")))
       <section className="px-5 lg:px-20">
         <div className="">
             <h1 className="text-2xl font-semibold text-gray-400 py-3 ">
-        Order From Our Handpicked Favorites
+        Order From Our Handpicked Favourites
         </h1>
         <div className="flex flex-wrap items-center justify-around ">
         {restaurant.restaurants.map((item,i) => (
