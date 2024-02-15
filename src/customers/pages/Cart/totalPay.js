@@ -1,4 +1,4 @@
-// export const cartTotal=(items)=>{
+export const cartTotal=(items)=>{
 
-//    return items.reduce((accumlatore, item)=>item.menuItem.price+accumlatore,0)
-// }
+   return items.reduce((accumlatore, item)=>item.menuItem.price+accumlatore,0)
+}
