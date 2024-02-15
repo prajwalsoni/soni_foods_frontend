@@ -1,4 +1,4 @@
-/* .banner{
+.banner{
     background-image: url("https://images.pexels.com/photos/958545/pexels-photo-958545.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1");
     background-size: cover; /* Adjust as needed */
     background-repeat: no-repeat;
@@ -39,4 +39,4 @@
      right: 0;
      /* z-index: 8; */
      /* background-color: aqua; */
-   } */
+   }
