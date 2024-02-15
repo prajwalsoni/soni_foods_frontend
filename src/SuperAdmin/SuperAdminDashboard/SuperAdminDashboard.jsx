@@ -1,11 +1,11 @@
-// import React from 'react'
+import React from 'react'
 
-// const SuperAdminDashboard = () => {
-//   return (
-//     <div>
+const SuperAdminDashboard = () => {
+  return (
+    <div>
         
-//     </div>
-//   )
-// }
+    </div>
+  )
+}
 
-// export default SuperAdminDashboard
+export default SuperAdminDashboard
