@@ -54,7 +54,7 @@ const Navbar = () => {
   };
 
   return (
-    <div className="px-5 z-50 py-[.8rem] bg-[#53E0BC]  lg:px-20 flex justify-between">
+    <div className="px-5 z-50 py-[.8rem] bg-[#F62459]  lg:px-20 flex justify-between">
       <div className="flex items-center space-x-4">
         <div
           onClick={navigateToHome}
