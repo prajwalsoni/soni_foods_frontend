@@ -60,9 +60,10 @@ const Navbar = () => {
           onClick={navigateToHome}
           className="lg:mr-10 cursor-pointer flex items-center space-x-4"
         >
-     <li className="logo text-gray-300 text-2xl" style={{ fontFamily: 'cursive', cursor: 'pointer', fontWeight: 'bold' }}>
+    <li className="logo text-gray-300 text-2xl" style={{ fontFamily: 'cursive', cursor: 'pointer', fontWeight: 'bold', fontSize: '2rem' }}>
   Soni Foods
 </li>
+
 
 
         </div>
